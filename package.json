@@ -3,7 +3,22 @@
   "version": "0.0.0",
   "description": "angularTest",
   "main": "server.js",
-  "author": {
-    "name": ""
+  "author": "Alina Pop",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"error no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlinaPop2018/AngularTesting.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlinaPop2018/AngularTesting/issues"
+  },
+  "homepage": "https://github.com/AlinaPop2018/AngularTesting#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
   }
 }
